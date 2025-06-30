@@ -8,8 +8,9 @@ url: "https://bartoinfo.github.io"
 baseurl: "/"
 
 title: Barto Info
-subtitle: A full flexible Jekyll theme
-description: Template for creating free sites on Github Pages
+subtitle: Site da Primeira Edição do Dia da Informática da ETEC Barto
+description: Realização da Primeira Edição do Dia da Informática da ETEC Barto, com o objetivo de promover a cultura digital e a inclusão tecnológica.
+lang: pt-BR
 og_image: "./assets/img/site/banner.png"
 #twitter_site: dhernangomez
 timezone: "America/Sao_Paulo"
@@ -24,7 +25,7 @@ author:
     - url: https://clcmo.github.io/
       icon: fas fa-blog
       label: Blog
-    - url: https://stackoverflow.com/users/7877917/clcmo
+    - url: https://stackoverflow.com/users/7433503/camila-l-oliveira
       icon: "fab fa-stack-overflow"
       label: StackOverflow
 
@@ -79,21 +80,17 @@ navbar:
      - title: O que é o BartoInfo?
        url: /sobre/o-que-e-barto-info
      - title: O que é a ETEC Barto?
-       url: /sobre/o-que-e-etec-barto    
+       url: /sobre/quem-e-etec-barto
      - title: Como Participar
        url: /sobre/como-participar
      - title: O dia da informática
        url: /sobre/dia-da-informatica
-  - title: PageSpeed Results
-    url:  /pagespeed
-  - title: About
+  - title: Sobre o Site
     child:
       - title: Licença
-        url: /license
-      - title: Showcase
-        url: /showcase
+        url: /docs/licenca
       - title: Contribua
-        url: /contribua
+        url: /docs/contribua
       - title: Changelog
         url: https://github.com/bartoinfo/bartoinfo.github.io/blob/master/CHANGELOG.md
 
@@ -118,22 +115,19 @@ chulapa-skin:
 
 # D. Jekyll Defaults and collections: see https://jekyllrb.com/
 collections:
-  demo:
+  sobre:
     output: true
-    permalink: /demo/:name
+    permalink: /sobre/:name
   docs:
     output: true
     permalink: /docs/:name
-  skins:
-    output: true
-    permalink: /skins/:name
   posts:
     output: true
-    permalink : /blog/:year:month:day_:title
+    permalink : /blog/:day/:month/:year/:title
 collections_dir     : collections
-permalink           : /:year:month:day_:title
+permalink           : /:day/:month/:year/:title
 paginate: 4
-paginate_path: "/blog/page:num/"
+paginate_path: /blog/page:num/
 paginator_maxnum: 3
 defaults:
   -

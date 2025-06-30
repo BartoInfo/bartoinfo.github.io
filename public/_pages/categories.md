@@ -1,7 +1,7 @@
 ---
 layout: cloudcategory
 title: Categorias
-permalink: /categories
+permalink: /categorias
 include_collection: posts
 excerpt: Categorias na BartoInfo
 show_breadcrumb   : true

@@ -2,7 +2,7 @@
 layout: search
 title: Pesquisar
 subtitle: 
-permalink: /search.html
+permalink: /pesquisar
 include_on_search: false
 ---
 

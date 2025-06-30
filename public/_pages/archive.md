@@ -1,8 +1,8 @@
 ---
 layout: archive
 title: Arquivo
-subtitle: Blog entries
-permalink: /archive
+subtitle: Publicações no Blog
+permalink: /arquivo
 include_collection: posts
 excerpt: News archive
 show_breadcrumb  : true

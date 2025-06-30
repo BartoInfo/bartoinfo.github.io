@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Legal stuff
-subtitle: License and Attributions
-permalink: ./license
+title: Licença
+subtitle: Licença e Atribuições
+permalink: /docs/licenca
 show_toc: true
 ---
 

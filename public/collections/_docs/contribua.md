@@ -3,7 +3,7 @@ layout: default
 title: Contribua
 subtitle: Deixe sua colaboração
 excerpt: Contribua para o BartoInfo
-permalink: /contribute
+permalink: /docs/contribua
 show_comments: true
 ---
 
