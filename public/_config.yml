@@ -105,7 +105,7 @@ footer:
     - label: "My blog"
       icon: "fas fa-blog"
       url: "https://bartoinfo.github.io/"
-  copyright: "&copy; 2025 <span class='chulapa'>BartoInfo</span> e o time ETEC Barto. Todos os direitos reservados."
+  copyright: "&copy; 2025 <span class='chulapa'>BartoInfo</span>. 🚀 Desenvolvido pelo time da ETEC Bartolomeu. Todos os direitos reservados."
 
 # C. Theme Settings
 chulapa-skin:
@@ -124,6 +124,20 @@ collections:
   posts:
     output: true
     permalink : /blog/:day/:month/:year/:title
+  projetos:
+    output: true
+    permalink: /projetos/:name
+  recursos:
+    output: true
+    biblio:
+      output: true
+      permalink: /recursos/biblio/:name
+    cursos:
+      output: true
+      permalink: /recursos/cursos/:name
+    outros:
+      output: true
+      permalink: /recursos/outros/:name
 collections_dir     : collections
 permalink           : /:day/:month/:year/:title
 paginate: 4
