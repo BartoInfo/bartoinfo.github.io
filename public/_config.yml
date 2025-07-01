@@ -81,8 +81,6 @@ navbar:
        url: /sobre/o-que-e-barto-info
      - title: O que é a ETEC Barto?
        url: /sobre/quem-e-etec-barto
-     - title: Como Participar
-       url: /sobre/como-participar
      - title: O dia da informática
        url: /sobre/dia-da-informatica
   - title: Sobre o Site
@@ -93,6 +91,8 @@ navbar:
         url: /docs/contribua
       - title: Changelog
         url: https://github.com/bartoinfo/bartoinfo.github.io/blob/master/CHANGELOG.md
+  - title: Contato
+    url: /contato
 
 footer:
   links:

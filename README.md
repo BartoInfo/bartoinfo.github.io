@@ -20,12 +20,12 @@ Queremos que esta celebração seja participativa e que todos possam contribuir\
 
 Temos uma comunidade incrível e seu conhecimento é valioso\! Você pode contribuir de diversas formas:
 
-  * **Artigos e Tutoriais:** Escreva sobre tópicos de informática que você domina, compartilhe dicas, tutoriais ou experiências.
-      * *Exemplo:* Crie um arquivo `.md` (Markdown) na pasta `artigos/` com seu conteúdo.
+  * **Artigos e Tutoriais (para Blog):** Escreva sobre tópicos de informática que você domina, compartilhe dicas, tutoriais ou experiências.
+      * *Exemplo:* Crie um arquivo `2025-07-01-nome-do-artigo.md` (Markdown) na pasta `_posts/` com seu conteúdo.
   * **Projetos e Demos:** Compartilhe pequenos projetos ou demonstrações que ilustrem conceitos de informática.
-      * *Exemplo:* Adicione uma pasta em `projetos/` com o código e um `README.md` explicando.
+      * *Exemplo:* Adicione uma pasta em `_projetos/` com o código e um arquivo como `2025-01-07-nome-do-projeto.md` explicando.
   * **Recursos Úteis:** Indique livros, cursos online, ferramentas ou outras referências que julgue importantes.
-      * *Exemplo:* Edite o arquivo `recursos.md` e adicione suas sugestões.
+      * *Exemplo:* Adicione um arquivo em `recursos/_cursos` ou  `recursos/_biblio` ou  `recursos/_outros`, com o seguinte nome `2025-01-07-nome-do-recurso.md` e as  suas sugestões.
 
 **Como Contribuir:**
 
